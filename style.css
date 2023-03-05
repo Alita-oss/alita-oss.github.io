@@ -1,0 +1,108 @@
+header {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+section {
+    padding: 20px 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media (max-width: 600px) {
+    .block {
+        flex-direction: column;
+
+    }
+}
+
+.content-box {
+    border: 2px solid lightgray;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.ancient-box {
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .ancient-box {
+        width: auto;
+    }
+}
+
+.content-box-row {
+    display: flex;
+}
+
+.content-box-row-color {
+    color: lightseagreen;
+    padding: 5px 4px 4px 5px;
+    width: 50%;
+}
+
+.content-box-number {
+    padding: 5px 4px 4px 5px;
+    text-transform: capitalize;
+    width: 50%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    gap: 15%;
+}
+
+.lineHr {
+    color: lightgray;
+}
+
+.equals {
+    display: flex;
+    justify-content: center;
+    color: lightgray;
+    font-size: 80px;
+    height: 100%;
+}
+
+.ancient-options {
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.ancient-options:hover {
+    background-color: darkgray;
+}
+
+.hidden {
+    display: none;
+}
+
+.styleInput {
+    text-transform: capitalize;
+    padding: 5px 5px 5px;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}

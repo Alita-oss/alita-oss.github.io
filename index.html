@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="_reset.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Ancient Calculator</h1>
+    </header>
+
+    <main>
+        <h3 class="subtitle">Délkové jednotky</h3>
+        <section>
+            <div class="block">
+                <div class="content-box inputs">
+                    <input type="number" value="1.0" name="" id="numberLengthInput">
+                    <hr class="lineHr">
+                    <input type="text" name="" id="ancientLengthInput" readonly class="styleInput">
+                    <ul id="ancientLengthOptions" class="hidden">
+                    </ul>
+                </div>
+                <span class="equals">=</span>
+                <div class="content-box ancient-box" id="optionsBox">
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="block">
+                <p>Tato kalkulačka vznikla za účelem doprovodu mé ročníkové práce z deváté třídy - Jednotky kolem nás. Kalkulačka se zabývá pouze převodem moderních jednotek do historických a naopak. Najdeme zde především historické jednotky z Čech za vlády Karla IV. a 19. století našeho letopočtu. Mimo ty se zde samotřejmě vyskytují moderní jednotky SI soustavy. :)</p>
+            </div>
+        </section>
+        <h3 class="subtitle">Objemové jednotky</h3>
+        <section>
+            <div class="block">
+                <div class="content-box inputs">
+                    <input type="number" value="1.0" name="" id="numberVolumeInput">
+                    <hr class="lineHr">
+                    <input type="text" name="" id="ancientVolumeInput" readonly class="styleInput">
+                    <ul id="ancientVolumeOptions" class="hidden">
+                    </ul>
+                </div>
+                <span class="equals">=</span>
+                <div class="content-box ancient-box" id="optionsVolumeBox">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
